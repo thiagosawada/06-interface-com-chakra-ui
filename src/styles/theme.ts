@@ -4,6 +4,12 @@ export const theme = extendTheme({
   colors: {
     gray: {
       "text": "#47585B",
+    },
+    yellow: {
+      "highlight": "#FFBA08"
+    },
+    white: {
+      "headings": "#F5F8FA"
     }
   },
   fonts: {
