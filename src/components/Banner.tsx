@@ -43,11 +43,8 @@ export function Banner() {
           alt="Avião amarelo"
           transform="translateY(48px) rotate(3deg)"
           ml="2rem"
-        >
-
-        </Image>
+        />
       </Flex>
-
     </Flex>
   );
 }
