@@ -8,6 +8,7 @@ export function Header() {
   return (
     <Flex
       as="header"
+      bg="white"
       w="100%"
       h={["3.125rem", "5rem", "6.25rem"]}
       px={["1rem", "1.5rem"]}
