@@ -1,6 +1,9 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 import { Banner } from "../components/Banner";
+import { Carousel } from "../components/Carousel";
 import { Categories } from "../components/Categories";
+
+
 
 export default function Home() {
   return (
@@ -24,6 +27,8 @@ export default function Home() {
         Vamos nessa? <br />
         Então escolha o seu continente
       </Heading>
+
+      <Carousel />
     </>
   )
 }
