@@ -1,6 +1,7 @@
 import { Box, Flex, Icon, IconButton, Image, } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import { FiChevronLeft } from "react-icons/fi"
+import { FiChevronLeft } from "react-icons/fi";
+import Link from "next/link";
 
 export function Header() {
   const { asPath } = useRouter();
@@ -17,13 +18,17 @@ export function Header() {
     >
       <Box w="2.5rem" minWidth="fit-content">
         {asPath !== "/" && (
-          <IconButton
-            aria-label="Go back"
-            icon={<Icon as={FiChevronLeft} />}
-            fontSize={24}
-            variant="unstyled"
-            mr="0.5rem"
-          />
+          <Link href="/">
+            <a>
+              <IconButton
+                aria-label="Go back"
+                icon={<Icon as={FiChevronLeft} />}
+                fontSize={24}
+                variant="unstyled"
+                mr="0.5rem"
+              />
+            </a>
+          </Link>
         )}
       </Box>
       <Box>
