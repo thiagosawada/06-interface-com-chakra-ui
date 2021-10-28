@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import { Banner } from "../components/Banner";
 import { Carousel } from "../components/Carousel";
 import { Categories } from "../components/Categories";
